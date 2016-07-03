@@ -1,0 +1,75 @@
+nelly({
+  "success":false,
+  "error":{
+    "code":101,
+    "type":"missing_access_key",
+    "info":"You have not supplied an API Access Key. [Required format: access_key=YOUR_ACCESS_KEY]"
+  }
+})
+nelly({
+  "success":false,
+  "error":{
+    "code":101,
+    "type":"missing_access_key",
+    "info":"You have not supplied an API Access Key. [Required format: access_key=YOUR_ACCESS_KEY]"
+  }
+})
+nelly({
+  "success":false,
+  "error":{
+    "code":101,
+    "type":"missing_access_key",
+    "info":"You have not supplied an API Access Key. [Required format: access_key=YOUR_ACCESS_KEY]"
+  }
+})
+nelly({
+  "success":false,
+  "error":{
+    "code":105,
+    "info":"Access Restricted - Your current Subscription Plan does not support Source Currency Switching."
+  }
+})
+nelly({
+  "success":false,
+  "error":{
+    "code":105,
+    "info":"Access Restricted - Your current Subscription Plan does not support Source Currency Switching."
+  }
+})
+nelly({
+  "success":false,
+  "error":{
+    "code":105,
+    "info":"Access Restricted - Your current Subscription Plan does not support Source Currency Switching."
+  }
+})
+nelly({
+  "success":false,
+  "error":{
+    "code":101,
+    "type":"missing_access_key",
+    "info":"You have not supplied an API Access Key. [Required format: access_key=YOUR_ACCESS_KEY]"
+  }
+})
+nelly({
+  "success":false,
+  "error":{
+    "code":105,
+    "info":"Access Restricted - Your current Subscription Plan does not support Source Currency Switching."
+  }
+})
+nelly({
+  "success":false,
+  "error":{
+    "code":105,
+    "info":"Access Restricted - Your current Subscription Plan does not support Source Currency Switching."
+  }
+})
+nelly({
+  "success":false,
+  "error":{
+    "code":105,
+    "info":"Access Restricted - Your current Subscription Plan does not support Source Currency Switching."
+  }
+})
+nelly({"success":false,"error":{"code":105,"info":"Access Restricted - Your current Subscription Plan does not support Source Currency Switching."}})

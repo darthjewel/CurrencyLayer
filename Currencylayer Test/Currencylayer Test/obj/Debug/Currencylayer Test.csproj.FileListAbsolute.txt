@@ -1,0 +1,14 @@
+c:\users\meydan\documents\visual studio 2015\Projects\Currencylayer Test\Currencylayer Test\bin\Debug\Currencylayer Test.exe.config
+c:\users\meydan\documents\visual studio 2015\Projects\Currencylayer Test\Currencylayer Test\bin\Debug\Currencylayer Test.exe
+c:\users\meydan\documents\visual studio 2015\Projects\Currencylayer Test\Currencylayer Test\bin\Debug\Currencylayer Test.pdb
+c:\users\meydan\documents\visual studio 2015\Projects\Currencylayer Test\Currencylayer Test\obj\Debug\Currencylayer Test.csprojResolveAssemblyReference.cache
+c:\users\meydan\documents\visual studio 2015\Projects\Currencylayer Test\Currencylayer Test\obj\Debug\Currencylayer_Test.Form1.resources
+c:\users\meydan\documents\visual studio 2015\Projects\Currencylayer Test\Currencylayer Test\obj\Debug\Currencylayer_Test.Properties.Resources.resources
+c:\users\meydan\documents\visual studio 2015\Projects\Currencylayer Test\Currencylayer Test\obj\Debug\Currencylayer Test.csproj.GenerateResource.Cache
+c:\users\meydan\documents\visual studio 2015\Projects\Currencylayer Test\Currencylayer Test\obj\Debug\Currencylayer Test.exe
+c:\users\meydan\documents\visual studio 2015\Projects\Currencylayer Test\Currencylayer Test\obj\Debug\Currencylayer Test.pdb
+c:\users\meydan\documents\visual studio 2015\Projects\Currencylayer Test\Currencylayer Test\bin\Debug\Newtonsoft.Json.dll
+c:\users\meydan\documents\visual studio 2015\Projects\Currencylayer Test\Currencylayer Test\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Meydan\Source\Repos\CurrencyLayer\Currencylayer Test\Currencylayer Test\bin\Debug\Currencylayer Test.exe.config
+C:\Users\Meydan\Source\Repos\CurrencyLayer\Currencylayer Test\Currencylayer Test\obj\Debug\Currencylayer Test.exe
+C:\Users\Meydan\Source\Repos\CurrencyLayer\Currencylayer Test\Currencylayer Test\obj\Debug\Currencylayer Test.pdb

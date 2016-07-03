@@ -157,8 +157,7 @@ namespace Currencylayer_Test
             request.RequestUri =
                 new Uri(String.Format("{0}{1}?{2}", ConfigurationManager.AppSettings["AccessUrl"], cmd.Url,
                     sbParams.ToString()));
-            //   request.Headers.Add("Authorization", String.Format("Bearer {0}", cmd.AccessToken));
-          //  request.Headers.IfModifiedSince
+           
            
             HttpWebRequest hwr = (HttpWebRequest) WebRequest.Create(request.RequestUri);
 
@@ -166,22 +165,13 @@ namespace Currencylayer_Test
             {
                 hwr.Accept = "application/json";
             }
-            /*
-            else if (cmd.MessageFormat == MessageFormat.XML)
-
-            {
-                hwr.Accept = "application/XML";
-            }
-            */
+           
             else
             {
                 FormatException exe = new FormatException("bad message format argument");
                 throw exe;
             }
-            // hwr.Host = "sandbox.tradier.com";
-            // hwr.Headers.Add("Authorization", "Bearer t5ZlzGOhBfxysFFANDo6XCw6D94A");
-         //   hwr.Headers.Add("Authorization", String.Format("Bearer {0}", cmd.AccessToken));
-
+           
 
 
             return hwr;

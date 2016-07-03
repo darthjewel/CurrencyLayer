@@ -151,13 +151,6 @@ namespace Currencylayer_Test
             cmd.MessageFormat = MessageFormat.JSON_F;
             cmd.Url = "/live";
 
-                // JSONP Callbacks
-                //    cmd.callback_function = "nelly";
-
-                //Source Currency Switching - not enabled in Free
-                /*
-                 cmd.Parameters.Add("source","EUR");
-                 */
                 HttpWebRequest request = requestbuilder(cmd);
                 ET alien = getETag();
                 if (alien.ETag != "")
@@ -228,25 +221,9 @@ namespace Currencylayer_Test
                 cmd.MessageFormat = MessageFormat.JSON;
                 cmd.Url = "/historical";
                 cmd.Parameters.Add("date", textBox1.Text);
-                // JSONP Callbacks
-                //    cmd.callback_function = "nelly";
-
-                //Source Currency Switching - not enabled in Free
-                /*
-                 cmd.Parameters.Add("source","EUR");
-                 */
+               
                 HttpWebRequest request = requestbuilder(cmd);
-                /*
-                ET alien = getETag();
-                if (alien.ETag != "")
-                {
-
-                    DateTime dt = DateTime.Parse(alien.Date);
-                    request.IfModifiedSince = dt;
-                    request.Headers[HttpRequestHeader.IfNoneMatch] = alien.ETag;
-
-                }
-                */
+              
                 try
                 {
 
@@ -258,16 +235,7 @@ namespace Currencylayer_Test
                     //  ProcessHeaders(response.Headers);
 
                     AnalyseResponse(response);
-                    /*
-                using (Stream stream = response.GetResponseStream())
-                {
-                    StreamReader reader = new StreamReader(stream, Encoding.UTF8);
-                    String responseString = reader.ReadToEnd();
-               //     display.Text += responseString;
-                    SaveMessage(responseString);
-                    ProcessMessage(responseString);
-                }
-                */
+                   
                 }
                 catch (WebException we)
                 {
@@ -286,11 +254,7 @@ namespace Currencylayer_Test
 
         private void button3_Click(object sender, EventArgs e)
         {
-            /*
-         ET alien= getETag();
-          display.Text += alien.ETag;
-          */
-
+          
             //Currency-Change Queries
             /*
             http://apilayer.net/api/change
